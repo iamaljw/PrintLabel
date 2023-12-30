@@ -16,7 +16,7 @@ This system aims to automate the entire process: from detecting the correct type
 ## How to Set Up
 
 1. **Install Python**: Ensure Python is installed on your system.
-2. **Install Dependencies**: Install necessary Python libraries using pip:
+2. **Install Dependencies**: Install necessary Python libraries using pip: pip install pygetwindow pyautogui win32print win32api 
 3. **Configure Printers**: Make sure the correct printers are installed and configured on your system.
 4. **Set Up Google Drive Sync**: Ensure the Google Drive folder is synced to a local directory on your system.
 5. **Update File names and Directory**: Update the respective variable names according to your needs, and ensure the directory path is updated in the script.
