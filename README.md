@@ -2,7 +2,7 @@
 
 This project was born out of a real-world need within an e-commerce business context, specifically aimed at improving the efficiency of printing shipping labels and documents. As someone who helps manage an overseas sister's e-commerce business, I found myself spending a significant amount of time manually printing various types of labels. The process involved manually setting the printer, printing labels, and confirming their completion — a repetitive and time-consuming task.
 
-The e-commerce business required two types of printouts: smaller labels for individual items using a label printer and larger A4 labels for shipping using a regular printer. Manually handling these tasks was prone to errors, such as selecting the wrong printer or missing out on some print jobs.
+The e-commerce business required two types of printouts: smaller labels for individual items using a label printer and larger A4 labels for shipping using a regular printer. Manually handling these tasks was prone to errors, such as selecting the wrong printer, configuring the print settings, or missing out on some print jobs.
 
 This system aims to automate the entire process: from detecting the correct type of label to setting the appropriate printer and finally printing and reporting the status of each job. It's designed to run with minimal intervention, freeing up time and reducing manual errors, thus contributing significantly to operational efficiency.
 
