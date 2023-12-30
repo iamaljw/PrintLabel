@@ -16,7 +16,7 @@ LabelStatus = False
 A4Status = False
 
 # Mailing Recipients
-Recipient = '<Your Recipient Email'
+Recipient = '<Your Recipient Email>'
 
 # Initialize Global Variables
 current_printer = win32print.GetDefaultPrinter()
