@@ -28,11 +28,11 @@ print(f"Current Printer: {current_printer}")
 # Set Printer Function
 def SetPrinter(TargetPrinter):
     global current_printer
-    for attempt in range(3):  # Try up to three times
+    for attempt in range(3):  
         if current_printer != TargetPrinter:
             try:
                 win32print.SetDefaultPrinter(TargetPrinter)
-                time.sleep(5)  # Increase wait time
+                time.sleep(5)  
                 current_printer = win32print.GetDefaultPrinter()
                 if current_printer == TargetPrinter:
                     print(f"Printer has been set to {TargetPrinter}")
@@ -67,7 +67,7 @@ def printfile():
         if i == Label:
             if SetPrinter(LabelPrinter):
                 closeAdobeAcrobat()
-                os.startfile(Label, 'print')  # Removed the second SetPrinter call
+                os.startfile(Label, 'print')  
                 print(f"{Label} has been printed via {win32print.GetDefaultPrinter()}")
                 file_printed = True
                 LabelStatus = True
@@ -76,7 +76,7 @@ def printfile():
         elif i == A4:
             if SetPrinter(A4Printer):
                 closeAdobeAcrobat()
-                os.startfile(A4, 'print')  # Removed the second SetPrinter call
+                os.startfile(A4, 'print') 
                 print(f"{A4} has been printed via {win32print.GetDefaultPrinter()}")
                 file_printed = True
                 A4Status = True
@@ -102,8 +102,8 @@ def EmailAlert():
 def closeAdobeAcrobat():
     # Attempt to find and close Adobe Acrobat
     for window in gw.getWindowsWithTitle('Adobe Acrobat'):
-        if 'Adobe Acrobat' in window.title:  # Check if it's the correct window
-            window.close()  # Attempt to close it
+        if 'Adobe Acrobat' in window.title:  
+            window.close() 
 
 # Execute Functions
 printfile()
