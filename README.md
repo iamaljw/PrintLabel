@@ -23,9 +23,8 @@ This system aims to automate the entire process: from detecting the correct type
 6. **Configure Email**: Set up environment variables or a configuration file to securely store email credentials.
 
 ## Usage
-
-1. **Start the Script**: Run the script using Python.
-2. **Add Files to Print**: Place the files you want to print in the synced Google Drive folder.
+1. **Add Files to Print**: Place the files you want to print in the synced Google Drive folder.
+2. **Start the Script**: Run the script using Python.
 3. **Check Email**: After the script runs, check the specified email for a report on the print jobs.
 
 ## How to Contribute
